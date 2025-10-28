@@ -1,0 +1,138 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+/**
+ * Theme functions file.
+ *
+ * Contains handlers for navigation and widget area.
+ */
+
+// Detect objectFit support
+if('objectFit' in document.documentElement.style === false) {
+    // assign HTMLCollection with parents of images with objectFit to variable
+    var container = document.getElementsByClassName('portfolio-featured-image');
+    // Loop through HTMLCollection
+    for(var i = 0; i < container.length; i++) {
+        // Asign image source to variable
+        var imageSource = container[i].querySelector('img').src;
+
+        // Hide image
+        container[i].querySelector('img').style.display = 'none';
+
+        // Add background-size: cover
+        container[i].style.backgroundSize = 'cover';
+
+        // Add background-image: and put image source here
+        container[i].style.backgroundImage = 'url(' + imageSource + ')';
+
+        // Add background-position: center center
+        container[i].style.backgroundPosition = 'center center';
+    }
+}
+(function ($) {
+    var body, masthead, menuToggle, siteNavigation, socialNavigation, siteHeaderMenu, resizeTimer;
+
+    function initMainNavigation(container) {
+        // Add dropdown toggle that displays child menu items.
+        var dropdownToggle = $('<button />', {
+            'class': 'dropdown-toggle',
+            'aria-expanded': false
+        }).append($('<i class="fa fa-angle-down" aria-hidden="true"></i>')).append($('<span />', {
+            'class': 'screen-reader-text',
+            text: screenReaderText.expand
+        }));
+
+        container.find('.menu-item-has-children > a').after(dropdownToggle);
+
+        // Toggle buttons and submenu items with active children menu items.
+        container.find('.current-menu-ancestor > button').addClass('toggled-on');
+        container.find('.current-menu-ancestor > .sub-menu').addClass('toggled-on');
+
+        // Add menu items with submenus to aria-haspopup="true".
+        container.find('.menu-item-has-children').attr('aria-haspopup', 'true');
+
+        container.find('.dropdown-toggle').click(function (e) {
+            var _this = $(this),
+                screenReaderSpan = _this.find('.screen-reader-text');
+
+            e.preventDefault();
+            _this.toggleClass('toggled-on');
+            _this.next('.children, .sub-menu').toggleClass('toggled-on');
+
+            // jscs:disable
+            _this.attr('aria-expanded', _this.attr('aria-expanded') === 'false' ? 'true' : 'false');
+            // jscs:enable
+            screenReaderSpan.text(screenReaderSpan.text() === screenReaderText.expand ? screenReaderText.collapse : screenReaderText.expand);
+        });
+    }
+
+    initMainNavigation($('.menu-primary-container'));
+
+    masthead = $('#masthead');
+    menuToggle = masthead.find('.menu-toggle');
+    siteHeaderMenu = $('.site-header-menu');
+    // Enable menuToggle.
+    (function () {
+
+        // Return early if menuToggle is missing.
+        if (!menuToggle.length) {
+            return;
+        }
+
+        // Add an initial values for the attribute.
+        menuToggle.add(siteNavigation).add(socialNavigation).attr('aria-expanded', 'false');
+
+        menuToggle.on('click', function () {
+            $(this).add(siteHeaderMenu).toggleClass('toggled-on');
+            $('body').toggleClass('toggled-on');
+            // jscs:disable
+            $(this).add(siteNavigation).add(socialNavigation).attr('aria-expanded', $(this).add(siteNavigation).add(socialNavigation).attr('aria-expanded') === 'false' ? 'true' : 'false');
+            // jscs:enable
+        });
+    })();
+
+
+    $('body').on('click', '.to-top', function (e) {
+        e.preventDefault();
+        var mode = (window.opera) ? ((document.compatMode == "CSS1Compat") ? $('html') : $('body')) : $('html,body');
+        mode.animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+
+    });
+
+})
+(jQuery);
+
+
+}
+/*
+     FILE ARCHIVED ON 23:23:06 Aug 28, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 00:11:29 Oct 28, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.715
+  exclusion.robots: 0.021
+  exclusion.robots.policy: 0.009
+  esindex: 0.013
+  cdx.remote: 126.847
+  LoadShardBlock: 262.402 (3)
+  PetaboxLoader3.datanode: 344.299 (4)
+  load_resource: 355.062
+  PetaboxLoader3.resolve: 166.023
+*/

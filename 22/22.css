@@ -28,13 +28,18 @@ p{
 img{
     width: 100%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Добавлена тень */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 figcaption{
     text-align: center;
     font-style: italic;
     font-size: 15px;
+}
+
+
+body {
+    background-color: #f8f9fa; 
 }
 
 .welcomeBlockWrapper{
@@ -45,6 +50,11 @@ figcaption{
     margin: 0 auto;
     padding: 30px;
     max-width: 800px;
+    background-color: #ffffff;
+    border-radius: 12px; 
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08); 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .welcomeBlockHeader{
@@ -60,7 +70,7 @@ figcaption{
     text-align: center;
 }
 
-h3 {
+h2 {
     font-family: "Inter", serif;
     font-size: 24px;  
     font-weight: 700;  

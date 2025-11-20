@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="31.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="slider/slider.css">
 </head>
 <body>
     <div class="welcomeBlockWrapper">
@@ -54,13 +55,81 @@
         <p>Как отметил глава Нового Уренгоя Иван Костогриз, памятный знак открывается в Новом Уренгое, как и во многих других городах России, накануне 200-летия Бородинского сражения русской армии под командованием М.И. Кутузова с французской армией в 1812 году. «Мы отдаем дань уважения предкам, которые две сотни лет назад отстояли Родину. Это важный вклад в патриотическое воспитание подрастающего поколения, повышение интереса к российской истории», – сказал Иван Костогриз</p>
         
         <figure class="imgLeft">
-            <img src="6. Открытие памятник Н.Уренгой.jpeg" alt="ткрытие памятника в Новом Уренгое">
+            <img src="6. Открытие памятник Н.Уренгой.jpeg" alt="Открытие памятника в Новом Уренгое">
             <figcaption>Открытие памятника в Новом Уренгое</figcaption>
         </figure>
         <figure class="imgLeft">
             <img src="7. Памятник ХНП.jpeg" alt="Памятный знак Хлеб нашей памяти">
             <figcaption>Памятный знак Хлеб нашей памяти</figcaption>
         </figure>
+
+        <div
+            class="slider"
+            role="region"
+            aria-label="Паттерны"
+        >
+            <div
+                class="controls"
+                role="group"
+                aria-label="Управление слайдами"
+            >
+                <button
+                class="button button-radio"
+                type="button"
+                aria-current="true"
+                aria-label="Показать 1 из 4"
+                >
+                </button>
+                <button
+                class="button button-radio"
+                type="button"
+                aria-label="Показать 2 из 4"
+                >
+                </button>
+
+                <button
+                aria-label="Предыдущий"
+                type="button"
+                class="button button-prev"
+                >
+                </button>
+                <button
+                aria-label="Следующий"
+                type="button"
+                class="button button-next"
+                >
+                </button>
+            </div>
+            <div class="slides" aria-live="polite">
+                <div
+                    class="slide"
+                    role="group"
+                    aria-labelledby="item-1-label"
+                    id="carousel-item-1"
+                    >
+                    <img
+                        class="slide-img"
+                        src="6. Открытие памятник Н.Уренгой.jpeg"
+                        alt="Открытие памятника в Новом Уренгое"
+                    >
+                    <h2 id="item-1-label">Открытие памятника в Новом Уренгое</h2>
+                </div>
+                <div
+                    class="slide"
+                    role="group"
+                    aria-labelledby="item-2-label"
+                    id="carousel-item-2"
+                    >
+                    <img
+                        class="slide-img"
+                        src="7. Памятник ХНП.jpeg"
+                        alt="Памятный знак Хлеб нашей памяти"
+                    >
+                    <h2 id="item-2-label">Памятный знак Хлеб нашей памяти</h2>
+                </div>
+            </div>
+         </div>
     </div>
+    <script src="slider/slider.js"></script>
 </body>
 </html>

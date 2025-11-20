@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="33.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="lightbox/css/lightbox.css" rel="stylesheet" />
 </head>
 <body>
     <div class="welcomeBlockWrapper">
@@ -16,6 +17,7 @@
                 Локация туристического маршрута<br>
                 «Легенды Нового Уренгоя»
             </h2>
+            <button class="mapBtn" onclick="openMap()">Открыть карту маршрута</button>
         </div>
     </div>
     <div class="centeredBlock bb10">
@@ -23,7 +25,9 @@
         <h3 class="chapterTitle">Первые отечественные вездеходы</h3>
         <p>Специальные машины, способные преодолевать бездорожье, во всём мире начали строить в начале XX века. В 1910-1916 годах талантливый изобретатель французского происхождения Адольф Кегресс, будучи личным шофёром российского императора Николая II, в Царском селе занимался созданием вездеходов с использованием гусеничного шасси.</p>
         <figure class="imgRight">
-            <img src="0.jpg" alt="Адольф Кегресс">
+            <a href="0.jpg" data-lightbox="image-1" data-title="Адольф Кегресс">
+                <img src="0.jpg" alt="Адольф Кегресс">
+            </a>
             <figcaption>Адольф Кегресс</figcaption>
         </figure>
         <p>Он предложил для повышения проходимости по бездорожью вместо ведущих колёс заднего моста использовать гусеницы. В 1914 году Кегресс получил патент на «Автомобиль-сани, движущиеся посредством бесконечных ремней с нажимными роликами и снабжённые поворотными полозьями на передней оси». В 1916 году по заявке правительства он закончил работу над первым полугусеничным бронеавтомобилем. Машина могла свободно передвигаться по целине, влажному грунту и болоту – 286 вёрст по бездорожью. Это инженерное решение вскоре «позаимствовали» многие европейские державы.</p>
@@ -82,5 +86,17 @@
         <img src="16.jpg" alt="Ненецкие дети у транспортера">
         <p class="authorBlock">Алексей Матвеев</p>
     </div>
+    <div class="mapWrapper" id="mapWrapper" onclick="closeMap()">
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="lightbox/js/lightbox-plus-jquery.js"></script>
+    <script>
+        lightbox.option({
+            'maxWidth': '100%'
+        })
+    </script>
 </body>
 </html>

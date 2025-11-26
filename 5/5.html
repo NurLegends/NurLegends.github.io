@@ -1,34 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Аллея мужества</title>
-    <link rel="stylesheet" href="5.css">
-</head>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Аллея мужества</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="5.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="lightbox/css/lightbox.css" rel="stylesheet" />
+    </head>
 <body>
-    <div class="Start">
+    <div class="welcomeBlockWrapper">
+        <div class="centeredBlock">
+            <h1 class="welcomeBlockHeader">
+                Аллея мужества
+            </h1>
+             <h2 class="welcomeBlockSubheader"> 
+                Локация туристического маршрута<br>
+                «Легенды Нового Уренгоя»</h2>
+                <button class="mapBotton"onclick="openMap()">Открыть карту маршрута</button>
+        </div>
+    </div>
+    <div class="centeredBlock">
         <p> 
-            Аллея мужества заложена в 2017 году. Первым на ней был установлен памятный знак воинам-десантникам и <br>
-            морским пехотинцам. Инициатива установки памятника принадлежит членам региональной общественной <br>
+            Аллея мужества заложена в 2017 году. Первым на ней был установлен памятный знак воинам-десантникам и
+            морским пехотинцам. Инициатива установки памятника принадлежит членам региональной общественной 
             организации «Десантное братство в ЯНАО» и военно-патриотического центра «Вымпел-Ямал».
         </p>
-            <img src="foto1.jpg" alt="Открытие памятника">
+        <figure class="imgRight">
+            <a href="foto1.jpg" data-lightbox="foto1.jpg" data-title="Открытие памятника"><img src="foto1.jpg" alt="Открытие памятника"></a>
+            <figcaption>Открытие памятника</figcaption>
+        </figure>
         <p>
             Открытие памятник воинам-десантникам и морским пехотинцам. Фото Бориса Великова. 2017 год
-            <br>
+            
         </p>
         <p>
-            Общественники организовали сбор средств на установку памятника, а администрация поддержала идею,<br>
-            выделив участок в Южном районе города за Богоявленским собором. Вклад в столь значимое для города <br>
-            событие внесли ООО «Уренгойдорстрой», МУП «Уренгойское городское хозяйство» и ООО «Уренгойские <br>
-            городские сети» <br>
-            На памятнике высечена цитата «Никто, кроме нас», ставшая девизом ВДВ, и изображен портрет основателя <br>
+            Общественники организовали сбор средств на установку памятника, а администрация поддержала идею,
+            выделив участок в Южном районе города за Богоявленским собором. Вклад в столь значимое для города 
+            событие внесли ООО «Уренгойдорстрой», МУП «Уренгойское городское хозяйство» и ООО «Уренгойские 
+            На памятнике высечена цитата «Никто, кроме нас», ставшая девизом ВДВ, и изображен портрет основателя 
             воздушно-десантных войск, генерала армии, героя Советского Союза Василия Филипповича Маргелова. 
         </p>
+        <figure>
             <img src="foto2.jpg" alt="Памятник воинам-десантникам и морским пехотинцам">
-            <br>
+            <figcaption>Памятник воинам-десантникам и морским пехотинцам</figcaption>
+        </figure>
+            
+        
     </div>
-    
+    <div class="mapWrapper" id="mapWrapper" onclick="closeMap()">
+            <div class="map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+            </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="lightbox/js/lightbox-plus-jquery.js"></script>
+       
 </body>
 </html>

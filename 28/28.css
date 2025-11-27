@@ -8,7 +8,7 @@ p{
     font-size: 17px;
     font-weight: 500;
     color: #7a7d9c;
-    line-height: 1,5;
+    line-height: 1.5;
     text-align: justify;
     margin-bottom: 15px;
 
@@ -17,6 +17,7 @@ p{
 .centeredBlock{
     margin: 0 auto;
     padding: 30px;
+    text-align: center;
     width: 800px;
 
 }
@@ -28,15 +29,23 @@ p{
 }
 
 
-
 .welcomeBlockHeader{
     font-family: "Inter", sans-serif;
     font-size: 50px;
     font-weight: 700;
     color: #0b0a33;
-    line-height: 1,5;
+    line-height: 1.5;
      text-align: center;
 
+}
+
+.welcomeBlockSubheader{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #7A7D9C;
 }
 
 img{
@@ -60,13 +69,19 @@ img{
 
 }
 
+.imgCentre{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+
 
 figure{
     width: 50%;
 
-
 }
-
 
 figcaption{
     font-family: "Inter", sans-serif;
@@ -74,5 +89,6 @@ figcaption{
     font-style: italic;
     text-align: center;
     color: #7a7d9c;
+    line-height: 1.5;
 
 }

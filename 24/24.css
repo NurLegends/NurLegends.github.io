@@ -168,3 +168,7 @@ figcaption{
         margin-right: auto;
     }
 }
+
+.lb-number{
+    display: none !important
+}

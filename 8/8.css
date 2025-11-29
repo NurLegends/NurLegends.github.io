@@ -59,6 +59,45 @@ figcaption{
     text-align: center;
 }
 
+.mapBtn{
+    background: #5335D9;
+    border-radius: 34px;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: 66px;
+    margin-bottom: 66px;
+    padding: 20px 42px 20px;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+
+.mapWrapper{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.map{
+    background: white;
+    padding: 10px;
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+}
+
+
 @media screen and (max-width:800px) {
     figure {
     width: 100%;

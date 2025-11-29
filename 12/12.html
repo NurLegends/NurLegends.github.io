@@ -53,9 +53,9 @@
                 Локация туристического маршрута<br>
                 «Легенды Нового Уренгоя»
                 </p>
-                <button class="mapBtm">Открыть карту маршрута</button>
-            </div>
-    </div>
+                    <button class="mapBtn" onclick="openMap()">Открыть карту маршрута</button>
+        </div>
+</div>
         <div class="centeredBlock">
             
             <p>Вы стоите рядом с чудом советской инженерной мысли –легендарной машиной семейства МАЗ-543. Она – осколок той прекрасной эпохи, в которой наша страна создавала всё самое быстрое, большое, сильное и прекрасное. Неважно, что изобретения, по большей части, появлялись в военной и космической отраслях. Многие затем использовались в мирной жизни. Так и объект нашего внимания задумывался и строился для победы в гонке вооружений с Соединенными Штатами Америки.</p>
@@ -140,8 +140,19 @@
                 <P>В 2019 году Новоуренгойский музей изобразительных искусств провёл на площадке рядом с памятником автомобилистам-первопроходцам субботник по очистке территории. В 2020 году управление городского хозяйства провело здесь работы по благоустройству.</P>
                 <P>Подойдите к ней, троньте колесо и задумайте доброе желание на будущую вашу дорогу.</P>
         </div>
-
+       <div class="mapWrapper" id="mapWrapper" onclick="closeMap()">
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
     </div>
+    <script src="script.js"></script>
+    <script src="lightbox/js/lightbox-plus-jquery.js"></script>
+    <script>
+        lightbox.option({
+            'maxWidth': '100%'
+        })
+    </script>
+    
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="slick/slick.min.js"></script>

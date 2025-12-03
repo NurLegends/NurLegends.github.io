@@ -168,3 +168,13 @@ figcaption{
         margin-right: auto;
     }
 }
+
+.lb-number{
+    display: none !important;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}

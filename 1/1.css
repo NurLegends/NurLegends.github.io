@@ -1,0 +1,328 @@
+* {
+    font-family: "Inter", serif !important;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7A7D9C;
+    line-height: 1.5 !important;
+    text-align: justify;
+}
+
+* {
+    font-family: "Inter", serif !important;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7A7D9C;
+    line-height: 1.5 !important;
+    text-align: justify;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.imgLeft{
+    float: left;
+    padding: 10px 0;
+    padding-right: 15px;
+    width: 50%;
+}
+
+.imgRight{
+    float: right;
+    padding: 10px 0;
+    padding-left: 15px;
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.welcomeBlockWrapper{
+    background: #f3f5ff;
+}
+
+.centeredBlock{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 800px;
+}
+
+.welcomeBlockHeader{
+    font-size: 50px;
+    font-weight: 700;
+    color: #0B0A33;
+    text-align: center;
+}
+
+.welcomeBlockSubeader{
+    font-size: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+.verticalline{
+    width: 2px;
+    height: 55px;
+    background: #EEEEEE;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    justify-content: space-between;
+
+}
+.partnerwrapper{
+    justify-content: space-between;
+    align-items: center ;
+}
+.mapadress, .ModalContent{
+    background: white;
+    padding: 50px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 54px;
+}
+.mapadress h2, .ModalContent{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: Medium;
+    font-size: 18px;
+    color: #000;    
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.mapadress p, .ModalContent p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;    
+    font-size: 16px;
+    color: #0666;    
+    line-height: 18px;   
+    margin-top: 22px;   
+}
+.mapadress button, .ModalContent button{
+    background: #FB565A;
+    border: 0px;
+    padding: 15px 40px;   
+    top: 415px;
+    left: 140px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    color: #fff;    
+    line-height: 18px;  
+    margin-top: 37px;  
+}
+.ModalWrap{
+    display: none;
+    background-color: #000;
+    opacity: 0.7;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.Modal{
+    display: none;
+    
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7A7D9C;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.centeredBlock{
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.bb10{
+    border-bottom: 2px solid #eee;
+}
+
+.welcomeBlockWrapper{
+    background: #f3f5ff;
+}
+
+.welcomeBlockHeader{
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0B0A33;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.welcomeBlockSubheader{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #7A7D9C;
+}
+
+.mapBtn{
+    background: #5335D9;
+    border-radius: 34px;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: 66px;
+    margin-bottom: 66px;
+    padding: 20px 42px 20px;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+.authorBlock{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+}
+
+figure{
+    width: 100%;
+}
+
+figcaption{
+    color: #7A7D9C;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+.imgLeft{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+.chapterNumber{
+    background: #f3f5ff;
+    border-radius: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #5335D9;
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 14px 24px 13px;
+    text-align: center;
+}
+
+.chapterTitle{
+    font-family: "Inter", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #0B0A33;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mapWrapper{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.map{
+    background: white;
+    padding: 10px;
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+}
+
+.lightboxOverlay{
+    width: 100% !important;
+}
+
+@media screen and (max-width:800px){
+    figure {
+        width: 100%;
+    }
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.chapterNumber{
+    background: #f3f5ff;
+    border-radius: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #5335D9;
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 14px 24px 13px;
+    text-align: center;
+}
+.class100{
+    width: 100% !important;    
+}
+.images-row {
+  display: flex; /* Используем flexbox для расположения элементов в ряд */
+  gap: 5px; /* Расстояние между картинками */
+  margin-bottom: 10px; /* Отступ снизу */
+}
+
+.images-row figure {
+  flex: 1; /* Картинки будут занимать равное пространство */
+  max-width: calc(60% - 10px); /* Каждая картинка займёт 50% ширины контейнера */
+}

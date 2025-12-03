@@ -1,0 +1,507 @@
+* {
+    font-family: "Inter", serif !important;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7A7D9C;
+    line-height: 1.5 !important;
+    text-align: justify;
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+.imgLeft{
+    float: left;
+    padding: 10px 0;
+    padding-right: 15px;
+    width: 50%;
+}
+
+.imgRight{
+    float: right;
+    padding: 10px 0;
+    padding-left: 15px;
+    width: 50%;
+}
+
+img{
+    width: 100%;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.welcomeBlockWrapper{
+    background: #f3f5ff;
+}
+
+.centeredBlock{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 800px;
+}
+
+.welcomeBlockHeader{
+    font-size: 50px;
+    font-weight: 700;
+    color: #0B0A33;
+    text-align: center;
+}
+
+.welcomeBlockSubeader{
+    font-size: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+.verticalline{
+    width: 2px;
+    height: 55px;
+    background: #EEEEEE;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    justify-content: space-between;
+
+}
+.partnerwrapper{
+    justify-content: space-between;
+    align-items: center ;
+}
+.mapadress, .ModalContent{
+    background: white;
+    padding: 50px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 54px;
+}
+.mapadress h2, .ModalContent{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: Medium;
+    font-size: 18px;
+    color: #000;    
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.mapadress p, .ModalContent p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;    
+    font-size: 16px;
+    color: #0666;    
+    line-height: 18px;   
+    margin-top: 22px;   
+}
+.mapadress button, .ModalContent button{
+    background: #FB565A;
+    border: 0px;
+    padding: 15px 40px;   
+    top: 415px;
+    left: 140px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    color: #fff;    
+    line-height: 18px;  
+    margin-top: 37px;  
+}
+.ModalWrap{
+    display: none;
+    background-color: #000;
+    opacity: 0.7;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.Modal{
+    display: none;
+    
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+    justify-content: center;
+    align-items: center;
+
+}
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7A7D9C;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.centeredBlock{
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.bb10{
+    border-bottom: 2px solid #eee;
+}
+
+.welcomeBlockWrapper{
+    background: #f3f5ff;
+}
+
+.welcomeBlockHeader{
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0B0A33;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.welcomeBlockSubheader{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #7A7D9C;
+}
+
+.mapBtn{
+    background: #5335D9;
+    border-radius: 34px;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: 66px;
+    margin-bottom: 66px;
+    padding: 20px 42px 20px;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+.authorBlock{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+}
+.class30{
+    width: 30%;    
+}
+
+.class50{
+    width: 50%;    
+}
+.class100{
+    width: 100%;    
+}
+
+figcaption{
+    color: #7A7D9C;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+.imgRight{
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.imgLeft{
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+.imgcenter{
+    float: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+img{
+    width: 100%;
+}
+
+.chapterNumber{
+    background: #f3f5ff;
+    border-radius: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #5335D9;
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 14px 24px 13px;
+    text-align: center;
+}
+
+.chapterTitle{
+    font-family: "Inter", sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #0B0A33;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mapWrapper{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.map{
+    background: white;
+    padding: 10px;
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+}
+
+.lightboxOverlay{
+    width: 100% !important;
+}
+
+@media screen and (max-width:800px){
+    figure {
+        width: 100%;
+    }
+}
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.slider {
+    position: relative;
+    max-width: 1000px; /* Увеличил ширину контейнера */
+    margin: 20px auto;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Добавил тень для объёма */
+}
+
+.slider_item {
+    display: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.slider_item.active {
+    display: block;
+    height: 500px; /* Фиксированная высота для слайда */
+    text-align: center;
+    padding: 20px;
+    height: 400px; /* Фиксированная высота для слайда */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Центрирование по вертикали */
+    align-items: center; /* Центрирование по горизонтали */
+}
+
+.slider_item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 500px; /* Увеличил максимальную высоту изображения */
+    border: 0px solid #000; /* Чёрная рамка толщиной 8px */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Тень для рамки */
+    margin: 0 auto; /* Центрирование изображения */
+    display: block;
+}
+
+.slider_item figcaption {
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+}
+
+.slider_button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 50%; /* Круглые кнопки */
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    transition: background 0.3s; /* Плавный переход */
+}
+
+.slider_button:hover {
+    background: rgba(0, 0, 0, 0.9); /* Эффект при наведении */
+}
+
+.slider_button.prev {
+    left: 10px;
+}
+
+.slider_button.next {
+    right: 10px;
+}
+/* Анимация пульсации */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        filter: blur(0px);
+    }
+    50% {
+        transform: scale(1.2); /* Увеличение в 1.2 раза */
+        /* filter: blur(2px); Лёгкое размытие */
+    }
+}
+
+/* Стили для картинки */
+.pulse-image {
+    animation: pulse 3s infinite ease-in-out;
+    display: block;
+    margin: 10px 20px 10px 0;
+    max-width: 100%;
+    float: left;
+    border-radius: 20px; /* Скругление углов */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /* Размытие по краям */
+    overflow: hidden; /* Скрывает выходящие за скруглённые края элементы */
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.5));
+}
+/* Анимация мерцания (как огонь) */
+@keyframes flicker {
+    0%, 100% { opacity: 0.9; filter: brightness(1.1); }
+    50% { opacity: 0.6; filter: brightness(1.5); }
+    25%, 75% { opacity: 0.8; filter: brightness(1.3); }
+}
+
+/* Применение анимации к картинке */
+.flicker-image {
+    animation: flicker 1.5s infinite ease-in-out;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px; /* Небольшой закругленный угол для естественности */
+    box-shadow: 0 0 15px rgba(255, 100, 0, 0.7); /* Оранжевое свечение */
+}
+/* Анимация для сияющего инея */
+@keyframes frostGlow {
+    0%, 100% {
+        filter: brightness(1.2) drop-shadow(0 0 8px rgba(200, 240, 255, 0.8));
+        opacity: 0.95;
+    }
+    50% {
+        filter: brightness(1.4) drop-shadow(0 0 12px rgba(200, 240, 255, 1));
+        opacity: 1;
+    }
+}
+
+/* Применение анимации */
+.frost-image {
+    animation: frostGlow 3s infinite ease-in-out;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(200, 240, 255, 0.7);
+}
+/* Анимация для дыма */
+@keyframes smokeEffect {
+    0%, 100% {
+        opacity: 0.7;
+        filter: blur(2px) brightness(1.1);
+        transform: translateY(0) scale(1);
+    }
+    50% {
+        opacity: 0.3;
+        filter: blur(4px) brightness(1.3);
+        transform: translateY(-10px) scale(1.05);
+    }
+}
+
+/* Применение анимации */
+.smoke-image {
+    animation: smokeEffect 4s infinite ease-in-out;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+/* Анимация для парящих птиц */
+@keyframes birdFly {
+    0%, 100% {
+        transform: translateX(0) translateY(0) rotate(0deg);
+        opacity: 0.8;
+    }
+    25% {
+        transform: translateX(20px) translateY(-10px) rotate(5deg);
+    }
+    50% {
+        transform: translateX(40px) translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    75% {
+        transform: translateX(20px) translateY(10px) rotate(-5deg);
+    }
+}
+
+/* Применение анимации к птицам */
+.bird-image {
+    animation: birdFly 6s infinite ease-in-out;
+    display: inline-block;
+    margin: 10px;
+}
+/* Анимация для мягкого сияния */
+@keyframes monumentGlow {
+    0%, 100% {
+        filter: brightness(1) drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+    }
+    50% {
+        filter: brightness(1.1) drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
+    }
+}
+
+/* Применение анимации */
+.monument-image {
+    animation: monumentGlow 5s infinite ease-in-out;
+    display: block;
+    margin: 0 auto;
+}
+.left-align {
+    float: left; /* Обтекание справа */
+    margin: 10px 20px 10px 0; /* Отступы: верх, право, низ, лево */
+    max-width: 45%; /* Ширина картинки */
+}

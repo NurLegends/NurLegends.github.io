@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="welcomeBlockWrapper">
-        <div class="centeredBlock">
+        <div class="centeredBlock" style="text-align: center;">
             <h1 class="welcomeBlockHeader">
                 Легенды Нового Уренгоя
             </h1>
@@ -20,11 +20,11 @@
                 и знакомит с культурой и историей<br>
                 газовой столицы
             </h2>
+            <button class="mapBtn" onclick="openMap()">Карта маршрута</button>
         </div>
     </div>
 
     <div class="centeredBlock">
-        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
         <div class="pointsWrap clearfix">
             <div class="points">
                 <a href="1/1.html">Аэропорт Нового Уренгоя</a><br>
@@ -74,5 +74,11 @@
     https://pererabotka.gazprom.ru/social/sotsialnye-proekty/legendy-gorodov/
     https://pererabotka.gazprom.ru/press/about-company/2021/05/768/ -->
     
-</body>
+    <div class="mapWrapper" id="mapWrapper" onclick="closeMap()">
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script src="33/script.js"></script>
+    </body>
 </html>

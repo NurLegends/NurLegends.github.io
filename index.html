@@ -1,17 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Легенды Нового Уренгоя</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    https://rutube.ru/video/c53ad6b45166e18a3d4a7938e9d579c9/
+    <div class="welcomeBlockWrapper">
+        <div class="centeredBlock" style="text-align: center;">
+            <h1 class="welcomeBlockHeader">
+                Легенды Нового Уренгоя
+            </h1>
+            <h2 class="welcomeBlockSubeader">
+                Пешеходно-экскурсионный туристический маршрут,<br>
+                который проходит через все значимые места <br>
+                и знакомит с культурой и историей<br>
+                газовой столицы
+            </h2>
+            <button class="mapBtn" onclick="openMap()">Карта маршрута</button>
+        </div>
+    </div>
+
+    <div class="centeredBlock">
+        <div class="pointsWrap clearfix">
+            <div class="points">
+                <a href="1/1.html">Аэропорт Нового Уренгоя</a><br>
+                <a href="2/2.html">Памятник «Взлетевшие птицы»</a><br>
+                <a href="3/3.html">Соборная мечеть</a><br>
+                <a href="4/4.html">Богоявленский собор</a><br>
+                <a href="5/5.html">Аллея мужества</a><br>
+                <a href="6/6.html">Сквер строителей</a><br>
+                <a href="7/7.html">Ленинградский проспект</a><br>
+                <a href="8/8.html">Скульптурная композиция «Счастье»</a><br>
+                <a href="9/9.html">Памятник Владимиру Высоцкому</a><br>
+                <!-- <a href="10/10.html">10. Новоуренгойский городской музей ИЗО</a><br> -->
+                <a href="11/11.html">Памятный знак «Молекула метана»</a><br>
+                <a href="12/12.html">Памятник «Автомобилистам – первопроходцам»</a><br>
+                <a href="13/13.html">Тепловоз ТЭ3</a><br>
+                <a href="14/14.html">Станция Ягельна</a><br>
+            </div>
+            <div class="points">
+                <a href="15/15.html">Памятный знак «Пионерам освоения Уренгоя»</a><br>
+                <!-- <a href="16/16.html">16. Виадук</a><br> -->
+                <!-- <a href="17/17.html">17. Общественный центр «Уренгой»</a><br> -->
+                <a href="18/18.html">Вертолет Ми-8</a><br>
+                <a href="19/19.html">Библиотеки имени журнала «Смена»</a><br>
+                <!-- <a href="20/20.html">20. Спортивный комплекс «Факел»</a><br> -->
+                <!-- <a href="21/21.html">21. Улица Первопроходцев</a><br> -->
+                <a href="22/22.html">Проспект Ивана Михайловича Губкина</a><br>
+                <!-- <a href="23/23.html">23. Памятный знак «Первопроходцам и ветеранам</a><br> -->
+                <a href="24/24.html">Парк «Дружба»</a><br>
+                <a href="25/25.html">Петербургский ангел</a><br>
+                <a href="26/26.html">Улица Дружбы народов</a><br>
+                <!-- <a href="27/27.html">27. Площадь Памяти</a><br> -->
+                <a href="28/28.html">Памятник С.А. Оруджеву</a><br>
+                <a href="29/29.html">Сквер «Чистая Энергия»</a><br>
+                <a href="30/30.html">Православный храм Серафима Саровского</a><br>
+                <a href="31/31.html">Памятный знак «Хлеб нашей памяти»</a><br>
+                <!-- <a href="32/32.html">32. Начало города Новый Уренгой</a><br> -->
+                <a href="33/33.html">Гусеничный транспортёр ГАЗ-71</a><br>
+            </div>
+        </div>
+        <iframe src="https://vk.com/video_ext.php?oid=-67926881&id=456239851&autoplay=1" width="100%" max-width="800" height="370" style="background-color: #000" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+        <!-- <iframe width="720" height="405" src="https://rutube.ru/play/embed/9ac5ccd5d1fed096601777833b06c14a/" style="border: none;" allow="clipboard-write;" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
+    </div>
+    <!-- https://rutube.ru/video/c53ad6b45166e18a3d4a7938e9d579c9/
     https://t.me/nur_museum/1664
     https://nur.yanao.ru/presscenter/news/64650/
     https://tv-impulse.ru/news/city-life/chto-vy-znaete-pro-peshehodno-ekskursionnyj-turisticheskij-marshrut-legendy-novogo-urengoya/
     https://pererabotka.gazprom.ru/social/sotsialnye-proekty/legendy-gorodov/
-    https://pererabotka.gazprom.ru/press/about-company/2021/05/768/
+    https://pererabotka.gazprom.ru/press/about-company/2021/05/768/ -->
     
-</body>
+    <div class="mapWrapper" id="mapWrapper" onclick="closeMap()">
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+    </div>
+    <script src="33/script.js"></script>
+    </body>
 </html>

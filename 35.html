@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Городская площадь</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="lightbox/css/lightbox.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="welcomeBlockWrapper">
+        <div class="centeredBlock" style="text-align: center;">
+            <div class="nav">
+                <div>
+                    <a href="8.html">&#9668; <span class="desktop">Предыдущая локация</span><span class="mobile">Предыдущая</span></a>
+                </div>
+                <div>
+                    <a href="index.html">&#9650; <span class="desktop">Список локаций</span><span class="mobile">Все</span></a>
+                </div>
+                <div>
+                    <a href="9.html"><span class="desktop">Следующая локация</span><span class="mobile">Следующая</span> &#9658;</a>
+                </div>
+            </div>
+            <h1 class="welcomeBlockHeader">Городская площадь</h1>
+            <p class="location" onclick="openMap()"> 
+                <svg class="location-icon" width="25" height="22" viewBox="0 0 24 24">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+                площадь справа от ГДК «Октябрь»
+            </p>
+        </div>
+    </div>
+    <div class="centeredBlock">
+        <p>На главной площади Нового Уренгоя, проходят все наиболее значимые мероприятия. Здесь установлен арт-объект «Новый Уренгой». Надпись выполнена из металлических газовых труб. Оба слова образованы единой линией, без отрыва. Этот объект отражает историю города, его неразрывную связь с освоением Уренгойского нефтегазоконденсатного месторождения. Конструкция интерактивная, и интересна юным жителям города: можно покрутить задвижки, как на газовом промысле.</p>
+        <p>Стела «Часы» с одной стороны, служит арт-объектом в городе, с другой стороны несет в себе историческое значение с функциональным наполнением. Арт-объект выполнен в минималистичном стиле, декорирован местным орнаментом, символами города и округа.</p>
+        <p>В 2020 году была проведена реконструкция городской площади в рамках большой программы «Комфортная среда». Более 7 000 кв.м. вымощены специальными гранитными плитами, подготовленными к ямальским морозам. Изюминкой стало архитектурное наполнение пространства.</p>
+        <p>В 2022 году пешеходная зона на улице Интернациональной в газовой столице заняла третье место в федеральном конкурсе лучших практик развития и цифровизации городской среды, благоустройства общественных и дворовых пространств в арктической зоне РФ.</p>
+        <p>Площадь примыкает к Ленинградскому проспекту, главной улице города, современнику эпохи «большого газа».</p>
+        <figure>
+            <a href="35/1.png" data-lightbox="35/1.png" data-title="Городская площадь, 2025 год. Фотография Алекса Прудиуса">
+                <img src="35/1.png" alt="Городская площадь, 2025 год. Фотография Алекса Прудиуса">
+            </a>
+            <figcaption>Городская площадь, 2025 год<br>Фотография Алекса Прудиуса</figcaption>
+        </figure>
+    </div>
+
+    <div class="mapWrapper" id="mapWrapper" onclick="closeMap()">
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?l=sat%2Cskl&ll=76.680672%2C66.084831&mode=usermaps&source=constructorLink&um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&z=19" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="lightbox/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>

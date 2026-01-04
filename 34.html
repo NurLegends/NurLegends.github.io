@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стела</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="lightbox/css/lightbox.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="welcomeBlockWrapper">
+        <div class="centeredBlock" style="text-align: center;">
+            <div class="nav">
+                <div>
+                    <a href="1.html">&#9668; <span class="desktop">Предыдущая локация</span><span class="mobile">Предыдущая</span></a>
+                </div>
+                <div>
+                    <a href="index.html">&#9650; <span class="desktop">Список локаций</span><span class="mobile">Все</span></a>
+                </div>
+                <div>
+                    <a href="2.html"><span class="desktop">Следующая локация</span><span class="mobile">Следующая</span> &#9658;</a>
+                </div>
+            </div>
+            <h1 class="welcomeBlockHeader">Стела</h1>
+            <p class="location" onclick="openMap()"> 
+                <svg class="location-icon" width="25" height="22" viewBox="0 0 24 24">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                </svg>
+                круговая развязка около Аэропорта
+            </p>
+        </div>
+    </div>
+    <div class="centeredBlock">
+        <p>Более 40 лет городская стела не меняла своего местоположения. В начале 2000-х ее обновили, оставив только каркас, а в 2020-м году демонтировали в связи со строительством развязки «Солнечная», которую открыли в сентябре 2021 года. Место установки обновлённой стелы выбрали неслучайно – улица осталась та же – Магистральная, только теперь визитная карточка Нового Уренгоя будет встречать и провожать всех жителей и гостей газовой столицы на кольце у аэропорта.</p>
+        <p>Новая стела вдвое выше своей предшественницы, установленной в сентябре 1979 году. Ее высота 16 метров. Обновлены и материалы, из которых выполнена историческая конструкция – металлический каркас заменили на более прочный монолитный железобетон. Обшивка выполнена из нержавеющей стали и натурального камня. Изюминкой обновленного объекта стала архитектурная подсветка из 200 световых огней, интегрированная в стелу. Символический «синий цветок» на новой стеле заменили на настоящий огонь. Высота пламени от газа составит порядка полутора метров. К городской стеле обустроен подъезд, прогулочные тропинки.</p>
+        <figure>
+            <a href="34/DJI_0050.JPG" data-lightbox="34/DJI_0050.JPG" data-title="Стела, 2025 год. Фотография Алексея Кудина">
+                <img src="34/DJI_0050.JPG" alt="Стела, 2025 год. Фотография Алексея Кудина">
+            </a>
+            <figcaption>Стела, 2025 год. Фотография Алексея Кудина</figcaption>
+        </figure>
+    </div>
+
+    <div class="mapWrapper" id="mapWrapper" onclick="closeMap()">
+        <div class="map">
+            <iframe src="https://yandex.ru/map-widget/v1/?l=sat%2Cskl&ll=76.538449%2C66.076861&mode=usermaps&source=constructorLink&um=constructor%3A38241077b84875ded3064ebb84266e3ea3b1db6a3a0111af96bfb1b2319eee82&z=17" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="lightbox/js/lightbox-plus-jquery.js"></script>
+</body>
+</html>

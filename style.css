@@ -18,6 +18,10 @@ h1,h2, a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 .welcomeBlockWrapper{
     background: #f3f5ff;
 }
@@ -33,6 +37,7 @@ h1,h2, a{
     font-weight: 700;
     color: #0B0A33;
     text-align: center;
+    margin-top: 15px;
 }
 
 .welcomeBlockSubeader{
@@ -65,7 +70,14 @@ h1,h2, a{
 .points {
     float: left;
     padding: 0px 5px;
+    text-align: left;
     width: 50%;
+}
+
+.points a{
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: left;
 }
 
 .mapWrapper{
@@ -88,16 +100,296 @@ h1,h2, a{
     box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
 }
 
+.videoClass{
+    width: 100%; 
+    max-width: 800px; 
+    height: 417px; 
+    background-color: #000; 
+}
+
+audio{
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    display: block;
+    margin: 35px auto;
+}
+
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #7A7D9C;
+    line-height: 1.5;
+    text-align: justify;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.author{
+    font-size: 15px;
+    text-align: right;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.date{
+    font-style: italic;
+    font-weight: 700;
+}
+
+.centeredBlock{
+    margin: 0 auto;
+    padding: 20px 30px 10px;
+    text-align: center;
+    max-width: 800px;
+}
+
+.bb10{
+    border-bottom: 2px solid #eee;
+}
+
+.welcomeBlockWrapper{
+    background: #f3f5ff;
+}
+
+.welcomeBlockHeader{
+    font-family: "Inter", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0B0A33;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.welcomeBlockSubheader{
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    margin-top: 25px;
+    line-height: 1.5;
+    text-align: center;
+    color: #7A7D9C;
+}
+
+.mapBtn{
+    background: #5335D9;
+    border-radius: 34px;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: 66px;
+    margin-bottom: 66px;
+    padding: 20px 42px 20px;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+.authorBlock{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+}
+
+figcaption{
+    color: #7A7D9C;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    line-height: 1.3;
+    font-style: italic;
+    text-align: center;
+}
+
+.imgRight{
+    width: 50%;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.imgLeft{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 15px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.chapterNumber{
+    background: #f3f5ff;
+    border-radius: 50px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #5335D9;
+    display: inline-block;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 14px 24px 13px;
+    text-align: center;
+}
+
+.chapterTitle{
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0B0A33;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.mapWrapper{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.map{
+    background: white;
+    padding: 10px;
+    width: 80%;
+    -webkit-box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 0px 30px 10px rgba(34, 60, 80, 0.2);
+}
+
+.lightboxOverlay{
+    width: 100% !important;
+}
+
+.location{
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.location:hover{
+    text-decoration: underline;
+}
+
+.location-icon {
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+.nav{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.nav div{
+    text-align: center;
+    width: 33.33%;
+}
+
+.nav a{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.nav a:hover{
+    text-decoration: none;
+}
+
+.nav div:first-of-type{
+    text-align: left;
+}
+
+.nav div:last-of-type{
+    text-align: right;
+}
+
+.slider {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    margin: 0 auto;
+    max-width: 100%;
+    display: inline;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: .5;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.lb-number{
+    display: none !important;
+}
+
+.lb-data .lb-caption {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1em;
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    line-height: 1.3;
+    font-style: italic;
+}
+
+.desktop{
+    display: inline-block;
+}
+
+.mobile{
+    display: none;
+}
+
 @media screen and (max-width:800px){
     .welcomeBlockHeader{
-        font-size: 25px;
+        font-size: 35px;
+        margin-top: 10px;
     }
 
     .welcomeBlockSubeader{
-        font-size: 15px;
+        font-size: 20px;
     }
     .points {
         width: 100%;
+    }
+
+    .chapterTitle{
+        font-size: 25px;
     }
 
     .mapBtn{
@@ -107,55 +399,40 @@ h1,h2, a{
         margin-bottom: 15px;
         padding: 10px 20px 10px;
     }
+    
+    .imgRight, .imgLeft {
+        width: 100%;
+    }
+
+    .videoClass{
+        height: 51vw; 
+    }
+
+    audio{
+        margin: 15px auto;
+    }
+
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display: inline-block;
+    }
 }
 
-/* p{
-    margin-bottom: 15px;
+@media screen and (max-width:510px){
+    .nav a{
+        padding: 15px 0;
+    }
 }
 
-.imgLeft{
-    float: left;
-    padding: 10px 0;
-    padding-right: 15px;
-    width: 50%;
-}
+@media screen and (max-width:420px){
+    .desktop{
+        display: none;
+    }
 
-.imgRight{
-    float: right;
-    padding: 10px 0;
-    padding-left: 15px;
-    width: 50%;
+    .mobile{
+        display: none;
+    }
 }
-
-img{
-    width: 100%;
-}
-
-figcaption{
-    text-align: center;
-    font-style: italic;
-    font-size: 15px;
-}
-
-.welcomeBlockWrapper{
-    background: #f3f5ff;
-}
-
-.centeredBlock{
-    margin: 0 auto;
-    padding: 30px;
-    max-width: 800px;
-}
-
-.welcomeBlockHeader{
-    font-size: 50px;
-    font-weight: 700;
-    color: #0B0A33;
-    text-align: center;
-}
-
-.welcomeBlockSubeader{
-    font-size: 25px;
-    margin-top: 25px;
-    text-align: center;
-} */
